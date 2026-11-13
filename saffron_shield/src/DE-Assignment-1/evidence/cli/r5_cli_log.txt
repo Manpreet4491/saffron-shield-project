@@ -1,0 +1,1315 @@
+Script started on Thu Nov 12 17:36:18 2026
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks catalogs list --profile saffron[27m
+
+[K[A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mc[27ma[27mt[27ma[27ml[27mo[27mg[27ms[27m [27ml[27mi[27ms[27mt[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6n[?25l[?2004h
+[92m⣽[0m loading...[K
+[92m⣻[0m loading...[K
+[92m⢿[0m loading...[K
+[92m⡿[0m loading...[K
+[92m⣟[0m loading...[K
+[92m⣯[0m loading...[K
+[92m⣷[0m loading...[K
+[92m⣾[0m loading...[K
+[92m⣽[0m loading...[K
+[92m⣻[0m loading...[K
+[92m⢿[0m loading...[K
+[92m⡿[0m loading...[K
+ [K
+[2K
+[?2004l[?25h[?1002l[?1003l[?1006lError: Credential was not sent or was of an unsupported type for this API. [ReqId: af5e4eff-7464-42e4-87f2-88ba6eb6b11c]
+
+Profile:   saffron
+Host:      https://dbc-38bddc5d-02cf.cloud.databricks.com
+Auth type: Personal Access Token (pat)
+
+Next steps:
+  - Regenerate your access token or run: databricks auth login --profile saffron
+  - Check your identity: databricks auth describe --profile saffron
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs mkdirs \[27m
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/ \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[3A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mm[27mk[27md[27mi[27mr[27ms[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6nError: databricks-api error: Credential was not sent or was of an unsupported type for this API. [ReqId: 3e994627-0444-4ec8-9e8c-d69d4b2c74cb]
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks auth login --host "YOUR_WORKSPACE_URL" --p[7mr[7mofile saffron[27m[K[A[13C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27ma[27mu[27mt[27mh[27m [27ml[27mo[27mg[27mi[27mn[27m [27m-[27m-[27mh[27mo[27ms[27mt[27m [27m"[27mY[27mO[27mU[27mR[27m_[27mW[27mO[27mR[27mK[27mS[27mP[27mA[27mC[27mE[27m_[27mU[27mR[27mL[27m"[27m [27m-[27m-[27mpr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn
+[A[79C" --pro[P[12C [A[60C" --prof[P[11C [A[60C" --profi[P[10C [A[60C" --profil[P[9C [A[60C[P[9Cle saffron [A[60C[P[10Ce saffron [A[60C[P[11C saffron [A[60C[P[12Csaffron [A[60C[P[13Caffron [A[60C[P[14Cffron [A[60C[P[15Cfron [A[60C[P[16Cron [A[60C[P[17Con [A[60C[P[18Cn [K[A[60C[P[19C[K[1B
+[K[A[60C[P[19C [20D[P[19C [20D[P[19C [20D[7mh[7mt[7mt[7mp[7ms[7m:[7m/[7m/[7md[7mb[7mc[7m-[7m3[7m8[7mb[7md[7md[7mc[7m5[7md-02[7mc[7mf.cloud.databricks.com[27m" --profile saffron[K[19D[A[34C[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27md[27mb[27mc[27m-[27m3[27m8[27mb[27md[27md[27mc[27m5[27md[27m-[27m0[27m2c[27mf[27m.[27mc[27ml[27mo[27mu[27md[27m.[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m.[27mc[27mo[27mm[?2004l
+
+]11;?\[6nProfile saffron was successfully saved
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004hScript started on Thu Nov 12 17:39:11 2026
+[7mevidence="$HOME/Desktop/SaffronShield/evidence/cli"[27m
+
+[K[A[27C[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m=[27m"[27m$[27mH[27mO[27mM[27mE[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mS[27ma[27mf[27mf[27mr[27mo[27mn[27mS[27mh[27mi[27me[27ml[27md[27m/[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[27m"[1B
+[K[?2004l
+
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mmkdir -p "$evidence"[27m
+
+[K[A[27C[27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m"[1B
+[K[?2004l
+
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mscript -a "$evidence/r5_cli_log.txt"[27m
+
+[K[A[27C[27ms[27mc[27mr[27mi[27mp[27mt[27m [27m-[27ma[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mr[27m5[27m_[27mc[27ml[27mi[27m_[27ml[27mo[27mg[27m.[27mt[27mx[27mt[27m"[1B
+[K[?2004l
+
+Script started, output file is /Users/manpreetsingh/Desktop/SaffronShield/evidence/cli/r5_cli_log.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks catalogs list --profile saffron[27m
+
+[K[A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mc[27ma[27mt[27ma[27ml[27mo[27mg[27ms[27m [27ml[27mi[27ms[27mt[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6n[?25l[?2004h
+[92m⣽[0m loading...[K
+[92m⣻[0m loading...[K
+[92m⢿[0m loading...[K
+[92m⡿[0m loading...[K
+[92m⣟[0m loading...[K
+[92m⣯[0m loading...[K
+[92m⣷[0m loading...[K
+[92m⣾[0m loading...[K
+[34mName[0m                                                                                                                                                                                                                         [34mType[0m                    [34mComment[0m
+[32mdbacademy[0m                                                                                                                                                                                                                    [34mMANAGED_CATALOG[0m         
+[32mworkspace[0m                                                                                                                                                                                                                    [34mMANAGED_CATALOG[0m         
+[32msystem[0m                                                                                                                                                                                                                       [34mSYSTEM_CATALOG[0m          System catalog (auto-created)
+[32msamples[0m                                                                                                                                                                                                                      [34mSYSTEM_CATALOG[0m          These sample datasets are made available by third party data providers as well as open data sources. You can learn more about each data set by clicking on each one.
+[K
+To discover more instantly available, free data sets across a wide range of industry use cases, visit [Databricks Marketplace](/marketplace).
+[K
+Please note that the third party data sets represent a reduced portion of the available data attributes, volume, and data types available from providers, and are intended for educational rather than production purposes.
+[32mdev[0m                                                                                                                                                                                                                          [34mMANAGED_CATALOG[0m         
+[32mshared_by_anvesha[0m                                                                                                                                                                                                            [34mDELTASHARING_CATALOG[0m    
+[32mneon_catalog[0m                                                                                                                                                                                                                 [34mFOREIGN_CATALOG[0m         
+[32menterprise[0m                                                                                                                                                                                                                   [34mMANAGED_CATALOG[0m         Enterprise showcase — local Databricks catalog for RAG, features, and BI
+[32mcyntexa_dev[0m                                                                                                                                                                                                                  [34mMANAGED_CATALOG[0m         
+[32[7mdatabricks catalogs list --profile saffron[27m
+
+[K[A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mc[27ma[27mt[27ma[27ml[27mo[27mg[27ms[27m [27ml[27mi[27ms[27mt[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6n[?25l[?2004h
+[92m⣽[0m loading...[K
+[92m⣻[0m loading...[K
+[92m⢿[0m loading...[K
+[92m⡿[0m loading...[K
+[92m⣟[0m loading...[K
+[92m⣯[0m loading...[K
+[92m⣷[0m loading...[K
+[92m⣾[0m loading...[K
+[34mName[0m                                                                                                                                                                                                                         [34mType[0m                    [34mComment[0m
+[32mdbacademy[0m                                                                                                                                                                                                                    [34mMANAGED_CATALOG[0m         
+[32mworkspace[0m                                                                                                                                                                                                                    [34mMANAGED_CATALOG[0m         
+[32msystem[0m                                                                                                                                                                                                                       [34mSYSTEM_CATALOG[0m          System catalog (auto-created)
+[32msamples[0m                                                                                                                                                                                                                      [34mSYSTEM_CATALOG[0m          These sample datasets are made available by third party data providers as well as open data sources. You can learn more about each data set by clicking on each one.
+[K
+To discover more instantly available, free data sets across a wide range of industry use cases, visit [Databricks Marketplace](/marketplace).
+[K
+Please note that the third party data sets represent a reduced portion of the available data attributes, volume, and data types available from providers, and are intended for educational rather than production purposes.
+[32mdev[0m                                                                                                                                                                                                                          [34mMANAGED_CATALOG[0m         
+[32mshared_by_anvesha[0m                                                                                                                                                                                                            [34mDELTASHARING_CATALOG[0m    
+[32mneon_catalog[0m                                                                                                                                                                                                                 [34mFOREIGN_CATALOG[0m         
+[32menterprise[0m                                                                                                                                                                                                                   [34mMANAGED_CATALOG[0m         Enterprise showcase — local Databricks catalog for RAG, features, and BI
+[32mcyntexa_dev[0m                                                                                                                                                                                                                  [34mMANAGED_CATALOG[0m         
+[32mfk_ce_2026_07_1378[0m                                                                                                                                                                                       mfk_ce_2026_07_1378[0m                                                                                                                                                                                                           [34mMANAGED_CATALOG[0m         
+[32mcyntexa_postgres_db[0m                                                                                                                                                                                                          [34mMANAGED_ONLINE_CATALOG[0m  
+[32muat[0m                                                                                                                                                                                                                          [34mMANAGED_CATALOG[0m         
+[32mprod[0m                                                                                                                                                                                                                         [34mMANAGED_CATALOG[0m         
+[32mneondb_catalog[0m                                                                                                                                                                                                               [34mFOREIGN_CATALOG[0m         
+[32mvp_ms20010501[0m                                                                                                                                                                                                                [34mMANAGED_CATALOG[0m         catalog for VoltPath EV solutions
+[32mclaims[0m                                                                                                                                                                                                                       [34mMANAGED_CATALOG[0m         
+
+ [K
+[2K
+[?2004l[?25h[?1002l[?1003l[?1006l[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs mkdirs \[27m
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/ \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[3A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mm[27mk[27md[27mi[27mr[27ms[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6n[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h                    [34mMANAGED_CATALOG[0m         
+[32mcyntexa_postgres_db[0m                                                                                                                                                                                                          [34mMANAGED_ONLINE_CATALOG[0m  
+[32muat[0m                                                                                                                                                                                                                          [34mMANAGED_CATALOG[0m         
+[32mprod[0m                                                                                                                                                                                                                         [34mMANAGED_CATALOG[0m         
+[32mneondb_catalog[0m                                                                                                                                                                                                               [34mFOREIGN_CATALOG[0m         
+[32mvp_ms20010501[0m                                                                                                                                                                                                                [34mMANAGED_CATALOG[0m         catalog for VoltPath EV solutions
+[32mclaims[0m                                                                                                                                                                                                                       [34mMANAGED_CATALOG[0m         
+
+ [K
+[2K
+[?2004l[?25h[?1002l[?1003l[?1006l[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs mkdirs \[27m
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/ \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[3A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mm[27mk[27md[27mi[27mr[27ms[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6n[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mecho "R5 CLI evidence upload test" > "$evidence/test_[7mc[7mli.txt"[27m[K
+
+[K[A[A[27C[27me[27mc[27mh[27mo[27m [27m"[27mR[27m5[27m [27mC[27mL[27mI[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m [27mu[27mp[27ml[27mo[27ma[27md[27m [27mt[27me[27ms[27mt[27m"[27m [27m>[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_c[27ml[27mi[27m.[27mt[27mx[27mt[27m"[1B
+[K[?2004l
+
+zsh: read-only file system: /test_cli.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mecho "R5 CLI evidence upload test" > "$evidence/test_[7mc[7mli.txt"[27m[K
+
+[K[A[A[27C[27me[27mc[27mh[27mo[27m [27m"[27mR[27m5[27m [27mC[27mL[27mI[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m [27mu[27mp[27ml[27mo[27ma[27md[27m [27mt[27me[27ms[27mt[27m"[27m [27m>[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_c[27ml[27mi[27m.[27mt[27mx[27mt[27m"[1B
+[K[?2004l
+
+zsh: read-only file system: /test_cli.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs cp \[27m
+
+[7m"$evidence/test_cli.txt" \[27m[K
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[4A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mc[27mp[27m [27m\[1B
+[27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27mc[27ml[27mi[27m_[27mt[27me[27ms[27mt[27m.[27mt[27mx[27mt[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6nError: file does not exist: /test_cli.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs cp \[27m
+
+[7m"$evidence/test_cli.txt" \[27m[K
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[4A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mc[27mp[27m [27m\[1B
+[27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27mc[27ml[27mi[27m_[27mt[27me[27ms[27mt[27m.[27mt[27mx[27mt[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6nError: file does not exist: /test_cli.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mcd ~/path/to/saffron-shield-project      # your repo [7mr[7moot[27m[K
+
+[7mmkdir -p evidence/cli[27m[K
+
+[7mexport evidence="$PWD/evidence/cli"[27m[K
+
+[K
+
+[7mecho "R5 CLI evidence upload test" > "$evidence/test_cli.txt"[27m[K
+
+[K
+
+[7mdatabricks fs cp "$evidence/test_cli.txt" \[27m[K
+
+[7m  dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt \[27m[K
+
+[7m  --overwrite --profile saffron[27m[K
+
+[K
+
+[7mdatabricks fs ls dbfs:/Volumes/claims/raw/landing/cli_check/ --profile saffron[27m[K[11A[51D[27mc[27md[27m [27m~[27m/[27mp[27ma[27mt[27mh[27m/[27mt[27mo[27m/[27ms[27ma[27mf[27mf[27mr[27mo[27mn[27m-[27ms[27mh[27mi[27me[27ml[27md[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m [27m [27m [27m [27m [27m [27m#[27m [27my[27mo[27mu[27mr[27m [27mr[27me[27mp[27mo[27m r[27mo[27mo[27mt[1B
+[27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[1B
+[27me[27mx[27mp[27mo[27mr[27mt[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m=[27m"[27m$[27mP[27mW[27mD[27m/[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[27m"[2B
+[27me[27mc[27mh[27mo[27m [27m"[27mR[27m5[27m [27mC[27mL[27mI[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m [27mu[27mp[27ml[27mo[27ma[27md[27m [27mt[27me[27ms[27mt[27m"[27m [27m>[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mc[27mp[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[27m [27m\[1B
+[27m [27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27mc[27ml[27mi[27m_[27mt[27me[27ms[27mt[27m.[27mt[27mx[27mt[27m [27m\[1B
+[27m [27m [27m-[27m-[27mo[27mv[27me[27mr[27mw[27mr[27mi[27mt[27me[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27ml[27ms[27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[?2004l
+
+cd: too many arguments
+]11;?\[6n/Users/manpreetsingh/evidence/cli/test_cli.txt -> dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt
+]11;?\[6ncli_test.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mcd ~/path/to/saffron-shield-project      # your repo [7mr[7moot[27m[K
+
+[7mmkdir -p evidence/cli[27m[K
+
+[7mexport evidence="$PWD/evidence/cli"[27m[K
+
+[K
+
+[7mecho "R5 CLI evidence upload test" > "$evidence/test_cli.txt"[27m[K
+
+[K
+
+[7mdatabricks fs cp "$evidence/test_cli.txt" \[27m[K
+
+[7m  dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt \[27m[K
+
+[7m  --overwrite --profile saffron[27m[K
+
+[K
+
+[7mdatabricks fs ls dbfs:/Volumes/claims/raw/landing/cli_check/ --profile saffron[27m[K[11A[51D[27mc[27md[27m [27m~[27m/[27mp[27ma[27mt[27mh[27m/[27mt[27mo[27m/[27ms[27ma[27mf[27mf[27mr[27mo[27mn[27m-[27ms[27mh[27mi[27me[27ml[27md[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m [27m [27m [27m [27m [27m [27m#[27m [27my[27mo[27mu[27mr[27m [27mr[27me[27mp[27mo[27m r[27mo[27mo[27mt[1B
+[27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[1B
+[27me[27mx[27mp[27mo[27mr[27mt[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m=[27m"[27m$[27mP[27mW[27mD[27m/[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[27m"[2B
+[27me[27mc[27mh[27mo[27m [27m"[27mR[27m5[27m [27mC[27mL[27mI[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m [27mu[27mp[27ml[27mo[27ma[27md[27m [27mt[27me[27ms[27mt[27m"[27m [27m>[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mc[27mp[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[27m [27m\[1B
+[27m [27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27mc[27ml[27mi[27m_[27mt[27me[27ms[27mt[27m.[27mt[27mx[27mt[27m [27m\[1B
+[27m [27m [27m-[27m-[27mo[27mv[27me[27mr[27mw[27mr[27mi[27mt[27me[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27ml[27ms[27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[?2004l
+
+cd: too many arguments
+]11;?\[6n/Users/manpreetsingh/evidence/cli/test_cli.txt -> dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt
+]11;?\[6ncli_test.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mcd ~/path/to/saffron-shield-project      # your repo [7mr[7moot[27m[K
+
+[7mmkdir -p evidence/cli[27m[K
+
+[7mexport evidence="$PWD/evidence/cli"[27m[K
+
+[K
+
+[7mecho "R5 CLI evidence upload test" > "$evidence/test_cli.txt"[27m[K
+
+[K
+
+[7mdatabricks fs cp "$evidence/test_cli.txt" \[27m[K
+
+[7m  dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt \[27m[K
+
+[7m  --overwrite --profile saffron[27m[K
+
+[K
+
+[7mdatabricks fs ls dbfs:/Volumes/claims/raw/landing/cli_check/ --profile saffron[27m[K[11A[51D[27mc[27md[27m [27m~[27m/[27mp[27ma[27mt[27mh[27m/[27mt[27mo[27m/[27ms[27ma[27mf[27mf[27mr[27mo[27mn[27m-[27ms[27mh[27mi[27me[27ml[27md[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m [27m [27m [27m [27m [27m [27m#[27m [27my[27mo[27mu[27mr[27m [27mr[27me[27mp[27mo[27m r[27mo[27mo[27mt[1B
+[27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[1B
+[27me[27mx[27mp[27mo[27mr[27mt[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m=[27m"[27m$[27mP[27mW[27mD[27m/[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[27m"[2B
+[27me[27mc[27mh[27mo[27m [27m"[27mR[27m5[27m [27mC[27mL[27mI[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m [27mu[27mp[27ml[27mo[27ma[27md[27m [27mt[27me[27ms[27mt[27m"[27m [27m>[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mc[27mp[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[27m [27m\[1B
+[27m [27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27mc[27ml[27mi[27m_[27mt[27me[27ms[27mt[27m.[27mt[27mx[27mt[27m [27m\[1B
+[27m [27m [27m-[27m-[27mo[27mv[27me[27mr[27mw[27mr[27mi[27mt[27me[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27ml[27ms[27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[?2004l
+
+cd: too many arguments
+]11;?\[6n/Users/manpreetsingh/evidence/cli/test_cli.txt -> dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt
+]11;?\[6ncli_test.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mcd ~/path/to/saffron-shield-project      # your repo [7mr[7moot[27m[K
+
+[7mmkdir -p evidence/cli[27m[K
+
+[7mexport evidence="$PWD/evidence/cli"[27m[K
+
+[K
+
+[7mecho "R5 CLI evidence upload test" > "$evidence/test_cli.txt"[27m[K
+
+[K
+
+[7mdatabricks fs cp "$evidence/test_cli.txt" \[27m[K
+
+[7m  dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt \[27m[K
+
+[7m  --overwrite --profile saffron[27m[K
+
+[K
+
+[7mdatabricks fs ls dbfs:/Volumes/claims/raw/landing/cli_check/ --profile saffron[27m[K[11A[51D[27mc[27md[27m [27m~[27m/[27mp[27ma[27mt[27mh[27m/[27mt[27mo[27m/[27ms[27ma[27mf[27mf[27mr[27mo[27mn[27m-[27ms[27mh[27mi[27me[27ml[27md[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m [27m [27m [27m [27m [27m [27m#[27m [27my[27mo[27mu[27mr[27m [27mr[27me[27mp[27mo[27m r[27mo[27mo[27mt[1B
+[27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[1B
+[27me[27mx[27mp[27mo[27mr[27mt[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m=[27m"[27m$[27mP[27mW[27mD[27m/[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mc[27ml[27mi[27m"[2B
+[27me[27mc[27mh[27mo[27m [27m"[27mR[27m5[27m [27mC[27mL[27mI[27m [27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m [27mu[27mp[27ml[27mo[27ma[27md[27m [27mt[27me[27ms[27mt[27m"[27m [27m>[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27mc[27mp[27m [27m"[27m$[27me[27mv[27mi[27md[27me[27mn[27mc[27me[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ml[27mi[27m.[27mt[27mx[27mt[27m"[27m [27m\[1B
+[27m [27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27mc[27ml[27mi[27m_[27mt[27me[27ms[27mt[27m.[27mt[27mx[27mt[27m [27m\[1B
+[27m [27m [27m-[27m-[27mo[27mv[27me[27mr[27mw[27mr[27mi[27mt[27me[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[2B
+[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27ml[27ms[27m [27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[?2004l
+
+cd: too many arguments
+]11;?\[6n/Users/manpreetsingh/evidence/cli/test_cli.txt -> dbfs:/Volumes/claims/raw/landing/cli_check/cli_test.txt
+]11;?\[6ncli_test.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs ls \[27m
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/ \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[3A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27ml[27ms[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6ncli_test.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks fs ls \[27m
+
+[7mdbfs:/Volumes/claims/raw/landing/cli_check/ \[27m[K
+
+[7m--profile saffron[27m[K
+
+[K[3A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mf[27ms[27m [27ml[27ms[27m [27m\[1B
+[27md[27mb[27mf[27ms[27m:[27m/[27mV[27mo[27ml[27mu[27mm[27me[27ms[27m/[27mc[27ml[27ma[27mi[27mm[27ms[27m/[27mr[27ma[27mw[27m/[27ml[27ma[27mn[27md[27mi[27mn[27mg[27m/[27mc[27ml[27mi[27m_[27mc[27mh[27me[27mc[27mk[27m/[27m [27m\[1B
+[27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mo[27mn[1B
+[K[?2004l
+
+]11;?\[6ncli_test.txt
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h[7mdatabricks jobs get-run <job run id> --profile saffro[7mn[27m[K
+
+[K[A[A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mj[27mo[27mb[27ms[27m [27mg[27me[27mt[27m-[27mr[27mu[27mn[27m [27m<[27mj[27mo[27mb[27m [27mr[27mu[27mn[27m [27mi[27md[27m>[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mon[1B
+[K[A[1C
+[A[79C[P[17Cn [K[A[61C[P[18C[K[2B
+[K[A[A[61C[P[18C [19D-[P[16C [19D[P[18C [19D[P[18C [19D[P[18C [19D-[P[16C [19D[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19D[7mdatabricks jobs get-run <job run id> --profile saffro[7mn[27m[K
+
+[K[A[A[27C[27md[27ma[27mt[27ma[27mb[27mr[27mi[27mc[27mk[27ms[27m [27mj[27mo[27mb[27ms[27m [27mg[27me[27mt[27m-[27mr[27mu[27mn[27m [27m<[27mj[27mo[27mb[27m [27mr[27mu[27mn[27m [27mi[27md[27m>[27m [27m-[27m-[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m [27ms[27ma[27mf[27mf[27mr[27mon[1B
+[K[A[1C
+[A[79C[P[17Cn [K[A[61C[P[18C[K[2B
+[K[A[A[61C[P[18C [19D-[P[16C [19D[P[18C [19D[P[18C [19D[P[18C [19D-[P[16C [19D[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19D[7m7[7m8[7m7[7m7[7m3[7m9[7m9[7m0[7m2[7m9[7m9[7m0[7m2[7m7[7m3[27m --profile saffron[1B
+[K[A[A[66C[15D[27m7[27m8[27m7[27m7[27m3[27m9[27m9[27m0[27m2[27m9[27m9[27m0[27m2[27m7[27m3  --profile saffron[1B
+[K[A[A[67C-[P[11Cffron [A[61C[?2004l[2B
+
+]11;?\[6n[7m7[7m8[7m7[7m7[7m3[7m9[7m9[7m0[7m2[7m9[7m9[7m0[7m2[7m7[7m3[27m --profile saffron[1B
+[K[A[A[66C[15D[27m7[27m8[27m7[27m7[27m3[27m9[27m9[27m0[27m2[27m9[27m9[27m0[27m2[27m7[27m3  --profile saffron[1B
+[K[A[A[67C-[P[11Cffron [A[61C[?2004l[2B
+
+]11;?\[6n{
+  [34;1m"cleanup_duration"[0m: [36m0[0m,
+  [34;1m"creator_user_name"[0m: [32m"botmanpreet2021@gmail.com"[0m,
+  [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+  [34;1m"end_time"[0m: [36m1794483573851[0m,
+  [34;1m"execution_duration"[0m: [36m0[0m,
+  [34;1m"job_id"[0m: [36m429968172079026[0m,
+  [34;1m"job_run_id"[0m: [36m787739902990273[0m,
+  [34;1m"number_in_job"[0m: [36m787739902990273[0m,
+  [34;1m"original_attempt_run_id"[0m: [36m787739902990273[0m,
+  [34;1m"run_duration"[0m: [36m445274[0m,
+  [34;1m"run_id"[0m: [36m787739902990273[0m,
+  [34;1m"run_name"[0m: [32m"claims_daily"[0m,
+  [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/787739902990273"[0m,
+  [34;1m"run_type"[0m: [32m"JOB_RUN"[0m,
+  [34;1m"setup_duration"[0m: [36m0[0m,
+  [34;1m"start_time"[0m: [36m1794480737928[0m,
+  [34;1m"state"[0m: {
+    [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+    [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+    [34;1m"state_message"[0m: [32m""[0m,
+    [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+  },
+  [34;1m"status"[0m: {
+    [34;1m"state"[0m: [32m"TERMINATED"[0m,
+    [34;1m"termination_details"[0m: {
+      [34;1m"code"[0m: [32m"SUCCESS"[0m,
+      [34;1m"message"[0m: [32m""[0m,
+      [34;1m"type"[0m: [32m"SUCCESS"[0m
+    }
+  },
+  [34;1m"tasks"[0m: [
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"task_key"[0m: [32m"pipeline"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480868927[0m,
+      [34;1m"execution_duration"[0m: [36m21000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/dq_checks"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m717840418294014[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/717840418294014"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794480844593[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"dq_checks"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480792063[0m,
+      [34;1m"execution_duration"[0m: [36m51000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/01_ingestion"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m387664623136922[0m,
+      [34;1{
+  [34;1m"cleanup_duration"[0m: [36m0[0m,
+  [34;1m"creator_user_name"[0m: [32m"botmanpreet2021@gmail.com"[0m,
+  [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+  [34;1m"end_time"[0m: [36m1794483573851[0m,
+  [34;1m"execution_duration"[0m: [36m0[0m,
+  [34;1m"job_id"[0m: [36m429968172079026[0m,
+  [34;1m"job_run_id"[0m: [36m787739902990273[0m,
+  [34;1m"number_in_job"[0m: [36m787739902990273[0m,
+  [34;1m"original_attempt_run_id"[0m: [36m787739902990273[0m,
+  [34;1m"run_duration"[0m: [36m445274[0m,
+  [34;1m"run_id"[0m: [36m787739902990273[0m,
+  [34;1m"run_name"[0m: [32m"claims_daily"[0m,
+  [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/787739902990273"[0m,
+  [34;1m"run_type"[0m: [32m"JOB_RUN"[0m,
+  [34;1m"setup_duration"[0m: [36m0[0m,
+  [34;1m"start_time"[0m: [36m1794480737928[0m,
+  [34;1m"state"[0m: {
+    [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+    [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+    [34;1m"state_message"[0m: [32m""[0m,
+    [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+  },
+  [34;1m"status"[0m: {
+    [34;1m"state"[0m: [32m"TERMINATED"[0m,
+    [34;1m"termination_details"[0m: {
+      [34;1m"code"[0m: [32m"SUCCESS"[0m,
+      [34;1m"message"[0m: [32m""[0m,
+      [34;1m"type"[0m: [32m"SUCCESS"[0m
+    }
+  },
+  [34;1m"tasks"[0m: [
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"task_key"[0m: [32m"pipeline"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480868927[0m,
+      [34;1m"execution_duration"[0m: [36m21000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/dq_checks"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m717840418294014[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/717840418294014"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794480844593[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"dq_checks"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480792063[0m,
+      [34;1m"execution_duration"[0m: [36m51000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/01_ingestion"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m387664623136922[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/387664623136922"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794480737967[0m,
+m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/387664623136922"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794480737967[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"ingest"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"condition_task"[0m: {
+        [34;1m"left"[0m: [32m"{{tasks.dq_checks.values.dq_problems}}"[0m,
+        [34;1m"op"[0m: [32m"EQUAL_TO"[0m,
+        [34;1m"outcome"[0m: [32m"true"[0m,
+        [34;1m"right"[0m: [32m"0"[0m
+      },
+      [34;1m"depends_on"[0m: [
+
+        {
+          [34;1m"task_key"[0m: [32m"dq_checks"[0m
+        }
+      ],
+      [34;1m"end_time"[0m: [36m1794480870205[0m,
+      [34;1m"execution_duration"[0m: [36m0[0m,
+      [34;1m"run_id"[0m: [36m928265544247032[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/928265544247032"[0m,
+      [34;1m"setup_duration"[0m: [36m0[0m,
+      [34;1m"start_time"[0m: [36m1794480869285[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"dq_gate"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480897819[0m,
+      [34;1m"execution_duration"[0m: [36m26000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m813231298573874[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/813231298573874"[0m,
+      [34;1m"setup_duration"[0m: [36m1000[0m,
+      [34;1m"start_time"[0m: [36m1794480870380[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"ingest"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"condition_task"[0m: {
+        [34;1m"left"[0m: [32m"{{tasks.dq_checks.values.dq_problems}}"[0m,
+        [34;1m"op"[0m: [32m"EQUAL_TO"[0m,
+        [34;1m"outcome"[0m: [32m"true"[0m,
+        [34;1m"right"[0m: [32m"0"[0m
+      },
+      [34;1m"depends_on"[0m: [
+
+        {
+          [34;1m"task_key"[0m: [32m"dq_checks"[0m
+        }
+      ],
+      [34;1m"end_time"[0m: [36m1794480870205[0m,
+      [34;1m"execution_duration"[0m: [36m0[0m,
+      [34;1m"run_id"[0m: [36m928265544247032[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/928265544247032"[0m,
+      [34;1m"setup_duration"[0m: [36m0[0m,
+      [34;1m"start_time"[0m: [36m1794480869285[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"dq_gate"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480897819[0m,
+      [34;1m"execution_duration"[0m: [36m26000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m813231298573874[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/813231298573874"[0m,
+      [34;1m"setup_duration"[0m: [36m1000[0m,
+      [34;1m"start_time"[0m: [36m1794480870380[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m1[0m,
+      [34;1m"cleanup_du,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m1[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480925536[0m,
+      [34;1m"execution_duration"[0m: [36m22000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m413802115004032[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/413802115004032"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794480900407[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m2[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794481955461[0m,
+      [34;1m"execution_duration"[0m: [36m54000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m931762942486889[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/931762942486889"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794481898308[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m3[0m,
+      [34;1m"cleanup_duration"[0m: [36m1000[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"ration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480925536[0m,
+      [34;1m"execution_duration"[0m: [36m22000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m413802115004032[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/413802115004032"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794480900407[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m2[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794481955461[0m,
+      [34;1m"execution_duration"[0m: [36m54000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m931762942486889[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/931762942486889"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794481898308[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m3[0m,
+      [34;1m"cleanup_duration"[0m: [36m1000[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794481984718[0m,
+      [34;1m"execution_duration"[0m: [36m23000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794481984718[0m,
+      [34;1m"execution_duration"[0m: [36m23000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m173878121713402[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/173878121713402"[0m,
+      [34;1m"setup_duration"[0m: [36m2000[0m,
+      [34;1m"start_time"[0m: [36m1794481958640[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m4[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794482988890[0m,
+      [34;1m"execution_duration"[0m: [36m74000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m324561223089735[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/324561223089735"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794482911774[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m5[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794483037723[0m,
+      [34;1m"execution_duration"[0m: [36m42000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m173878121713402[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/173878121713402"[0m,
+      [34;1m"setup_duration"[0m: [36m2000[0m,
+      [34;1m"start_time"[0m: [36m1794481958640[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m4[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794482988890[0m,
+      [34;1m"execution_duration"[0m: [36m74000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m324561223089735[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/324561223089735"[0m,
+      [34;1m"setup_duration"[0m: [36m3000[0m,
+      [34;1m"start_time"[0m: [36m1794482911774[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m5[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794483037723[0m,
+      [34;1m"execution_duration"[0m: [36m42000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m582725905239591[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/582725905239591"[0m,
+      [34;1m"setup_duration"[0m: [},
+      [34;1m"run_id"[0m: [36m582725905239591[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/582725905239591"[0m,
+      [34;1m"setup_duration"[0m: [36m2000[0m,
+      [34;1m"start_time"[0m: [36m1794482992886[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m6[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794483573488[0m,
+      [34;1m"execution_duration"[0m: [36m41000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m365323377819423[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/365323377819423"[0m,
+      [34;1m"setup_duration"[0m: [36m2000[0m,
+      [34;1m"start_time"[0m: [36m1794483530421[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"task_key"[0m: [32m"ingest"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480844300[0m,
+      [34;1m"execution_duration"[0m: [36m51000[0m,
+      [34;1m"pipeline_task"[0m: {
+        [34;1m"pipeline_id"[0m: [32m"938bc969-5d45-4d14-9ebd-96cd48352dda"[0m
+      },
+      [34;1m"run_id"[0m: [36m112738077688474[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/112738077688474"[0m,
+      [34;1m"setup_duration"[0m: [36m0[0m,
+      [34;1m"start_time"[0m: [36m1794480792389[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_d36m2000[0m,
+      [34;1m"start_time"[0m: [36m1794482992886[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"FAILED"[0m,
+        [34;1m"state_message"[0m: [32m"Workload failed, see run output for details"[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"RUN_EXECUTION_ERROR"[0m,
+          [34;1m"message"[0m: [32m"Workload failed, see run output for details"[0m,
+          [34;1m"type"[0m: [32m"CLIENT_ERROR"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m6[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"outcome"[0m: [32m"true"[0m,
+          [34;1m"task_key"[0m: [32m"dq_gate"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794483573488[0m,
+      [34;1m"execution_duration"[0m: [36m41000[0m,
+      [34;1m"notebook_task"[0m: {
+        [34;1m"notebook_path"[0m: [32m"/Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold"[0m,
+        [34;1m"source"[0m: [32m"WORKSPACE"[0m
+      },
+      [34;1m"run_id"[0m: [36m365323377819423[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/365323377819423"[0m,
+      [34;1m"setup_duration"[0m: [36m2000[0m,
+      [34;1m"start_time"[0m: [36m1794483530421[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"gold"[0m
+    },
+    {
+      [34;1m"attempt_number"[0m: [36m0[0m,
+      [34;1m"cleanup_duration"[0m: [36m0[0m,
+      [34;1m"depends_on"[0m: [
+        {
+          [34;1m"task_key"[0m: [32m"ingest"[0m
+        }
+      ],
+      [34;1m"effective_performance_target"[0m: [32m"PERFORMANCE_OPTIMIZED"[0m,
+      [34;1m"end_time"[0m: [36m1794480844300[0m,
+      [34;1m"execution_duration"[0m: [36m51000[0m,
+      [34;1m"pipeline_task"[0m: {
+        [34;1m"pipeline_id"[0m: [32m"938bc969-5d45-4d14-9ebd-96cd48352dda"[0m
+      },
+      [34;1m"run_id"[0m: [36m112738077688474[0m,
+      [34;1m"run_if"[0m: [32m"ALL_SUCCESS"[0m,
+      [34;1m"run_page_url"[0m: [32m"https://dbc-38bddc5d-02cf.cloud.databricks.com/?o=7474644898990565#job/429968172079026/run/112738077688474"[0m,
+      [34;1m"setup_duration"[0m: [36m0[0m,
+      [34;1m"start_time"[0m: [36m1794480792389[0m,
+      [34;1m"state"[0m: {
+        [34;1m"life_cycle_state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"result_state"[0m: [32m"SUCCESS"[0m,
+        [34;1m"state_message"[0m: [32m""[0m,
+        [34;1m"user_cancelled_or_timedout"[0m: [31mfalse[0m
+      },
+      [34;1m"status"[0m: {
+        [34;1m"state"[0m: [32m"TERMINATED"[0m,
+        [34;1m"termination_details"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"pipeline"[0m
+    }
+  ],
+  [34;1m"trigger"[0m: [32m"ONE_TIME"[0m
+}
+[1m[7etails"[0m: {
+          [34;1m"code"[0m: [32m"SUCCESS"[0m,
+          [34;1m"message"[0m: [32m""[0m,
+          [34;1m"type"[0m: [32m"SUCCESS"[0m
+        }
+      },
+      [34;1m"task_key"[0m: [32m"pipeline"[0m
+    }
+  ],
+  [34;1m"trigger"[0m: [32m"ONE_TIME"[0m
+}
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004hm%[27m[1m[0m                                                                               
+ 
+]7;file://Manpreet.local/Users/manpreetsingh
+[0m[27m[24m[Jmanpreetsingh@Manpreet ~ % [K[?2004h

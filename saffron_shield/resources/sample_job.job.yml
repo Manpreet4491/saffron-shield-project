@@ -1,0 +1,47 @@
+resources:
+  jobs:
+    claims_daily:
+      name: claims_daily
+      trigger:
+        pause_status: UNPAUSED
+        file_arrival:
+          url: /Volumes/claims/raw/landing/raw/claims_raw/
+      tasks:
+        - task_key: ingest
+          notebook_task:
+            notebook_path: /Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/01_ingestion
+            source: WORKSPACE
+          max_retries: 2
+          min_retry_interval_millis: 10000
+          disable_auto_optimization: true
+        - task_key: pipeline
+          depends_on:
+            - task_key: ingest
+          pipeline_task:
+            pipeline_id: 938bc969-5d45-4d14-9ebd-96cd48352dda
+        - task_key: dq_checks
+          depends_on:
+            - task_key: pipeline
+          notebook_task:
+            notebook_path: /Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/dq_checks
+            source: WORKSPACE
+        - task_key: dq_gate
+          depends_on:
+            - task_key: dq_checks
+          condition_task:
+            op: EQUAL_TO
+            left: "{{tasks.dq_checks.values.dq_problems}}"
+            right: "0"
+        - task_key: gold
+          depends_on:
+            - task_key: dq_gate
+              outcome: "true"
+          notebook_task:
+            notebook_path: /Workspace/Users/botmanpreet2021@gmail.com/saffron-shield-project/saffron_shield/src/DE-Assignment-1/03_gold
+            source: WORKSPACE
+      queue:
+        enabled: true
+      parameters:
+        - name: catalog
+          default: ${var.catalog}
+      performance_target: PERFORMANCE_OPTIMIZED
